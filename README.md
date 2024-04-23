@@ -12,12 +12,13 @@
 
 ## 1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
 
-# 1.1
+### 1.1
 <div align='center'>
 <figure> <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/FKBsrHTV/IMG-20240322-WA0066.jpg" alt="IMG-20240322-WA0066"/></a><br/><br/>
 <figcaption><b></b></figcaption></figure>
 </div>
 + Una función matemática para calcular el volumen y el área superficial.
+
 + Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado `r1`, `r2` y `h`.
 
 ```python
@@ -48,12 +49,13 @@ if __name__ == "__main__":
         print("El valor ingresado no es un numero real")
 ```
 
-# 1.2
+### 1.2
 <div align='center'>
 <figure> <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/FsLF9vSj/IMG-20240322-WA0067.jpg" alt="IMG-20240322-WA0067"/></a><br/><br/>
 <figcaption><b></b></figcaption></figure>
 </div>
 + Una función matemática para calcular el área y el perimetro.
+
 + Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado `r`, `a` y `b`.
 
 ```python
@@ -84,7 +86,7 @@ if __name__ == "__main__":
         print("El valor ingresado no se trata de un numero real")
 ```
 
-# 1.3 Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
+### 1.3 Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 ```python
 if __name__ == "__main__":
@@ -115,7 +117,7 @@ if __name__ == "__main__":
 + 2.1 El promedio
 + 2.2 El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
 + 2.3 La raíz cúbica del menor número
-# 2.1
+### 2.1
 
 ```python
 def promedio (*args) -> float: # definir la funcion de argumento no definido
@@ -141,7 +143,7 @@ if __name__ == "__main__":
         print("El valor ingresado no se trata de un numero")
 ```
 
-# 2.2
+### 2.2
 
 ```python
 def prom_multiplicativo (*args) -> float: # definir la funcion de argumento no definido
@@ -166,7 +168,7 @@ if __name__ == "__main__":
         print("El valor ingresado no se trata de un numero")
 ```
 
-# 2.3
+### 2.3
 
 ```python
 def raiz_cubica_menor (*args) -> float: # definir la funcion de argumento no definido
